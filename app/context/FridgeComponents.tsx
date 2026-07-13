@@ -39,7 +39,7 @@ export default function FridgeCategories() {
         {/* Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {currentItems.map((item) => (
-            <Link href={`/services/refrigerator/${item.id}`} key={item.id} className="block group">
+            <Link href={`/services/${item.id}`} key={item.id} className="block group">
               <div className="bg-white/5 border border-white/5 rounded-2xl overflow-hidden group-hover:border-gold/30 transition-colors duration-500 relative">
                 
                 {/* Image Area */}

@@ -8,21 +8,25 @@ const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfa
 const amiri = Amiri({ subsets: ['arabic', 'latin'], variable: '--font-amiri', weight: ['400', '700'], display: 'swap' });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://alphacare.vercel.app'), // Replace with final domain when ready
   title: 'ALPHA CARE Home Appliances, Refrigeration & Air Conditioning',
   description:
-    'Luxury-grade home appliance maintenance — Samsung, Hitachi, Ariston, AC, ovens, and screens. Serving Riyadh, Jeddah, and Madinah.',
+    'Luxury-grade home appliance maintenance — Samsung, Hitachi, Ariston, AC, ovens, and screens. Serving Medinah.',
   openGraph: {
     title: 'ALPHA CARE Home Appliances, Refrigeration & Air Conditioning',
     description:
-      'Certified technicians. Genuine parts. Service across Riyadh, Jeddah, and Madinah.',
+      'Certified technicians. Genuine parts. Service across Medinah.',
   },
 };
+
+import WhatsAppIcon from '@/components/WhatsAppIcon';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ar" dir="rtl" suppressHydrationWarning>
       <body className={`${inter.variable} ${playfair.variable} ${amiri.variable} font-sans antialiased`}>
         <LanguageProvider>{children}</LanguageProvider>
+        <WhatsAppIcon />
       </body>
     </html>
   );

@@ -46,7 +46,7 @@ export function Footer({ onContact }: { onContact: () => void }) {
             <div className="mt-6 flex items-center gap-2 text-gold/60">
               <MapPin className="w-4 h-4" />
               <span className={cn('text-xs tracking-wide2 uppercase', lang === 'ar' && 'font-arabic')}>
-                {lang === 'en' ? 'Riyadh · Jeddah · Madinah' : 'الرياض · جدة · المدينة المنورة'}
+                {lang === 'en' ? 'Medinah' : 'المدينة المنورة'}
               </span>
             </div>
           </div>

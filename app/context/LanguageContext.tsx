@@ -22,7 +22,7 @@ const dict: Dict = {
 
   // Hero
   'hero.title': { en: 'Precision Home Appliance Maintenance', ar: 'شـركـة ألفا كير | لصيانة الإجهزة المنزلية' },
-  'hero.subtitle': { en: 'Certified technicians. Genuine parts. Service across Riyadh, Jeddah, and Madinah — delivered with the discipline of a luxury concierge.', ar: 'فنيون معتمدون. قطع غيار أصلية. خدمة في الرياض وجدة والمدينة المنورة — بدقة و انضباط الاستضافة الفاخرة.' },
+  'hero.subtitle': { en: 'Certified technicians. Genuine parts. Service across Medinah — delivered with the discipline of a luxury concierge.', ar: 'فنيون معتمدون. قطع غيار أصلية. خدمة في المدينة المنورة — بدقة و انضباط الاستضافة الفاخرة.' },
   'hero.cta': { en: 'Request Service', ar: 'اطلب الخدمة' },
  
 
@@ -32,18 +32,18 @@ const dict: Dict = {
   'services.subtitle': { en: 'Six disciplines. One standard of excellence.', ar: 'ست تخصصات. معيار واحد من التميز.' },
 
   // Bento cards
-  'service.1.title': { en: 'Samsung Washing Machine Repair', ar: 'صيانة غسالات سامسونج الرياض بالضمان' },
-  'service.1.desc': { en: 'Authorized Samsung warranty service in Riyadh — drum, motor, and control board specialists.', ar: 'خدمة سامسونج المعتمدة بالضمان في الرياض — متخصصون في الحلة والمحرك ولوحة التحكم.' },
-  'service.2.title': { en: 'Screen & TV Repair', ar: 'صيانة شاشات وتليفزيونات بجدة' },
-  'service.2.desc': { en: 'Panel-level diagnostics and repair for LED, OLED, and QLED screens in Jeddah.', ar: 'تشخيص وإصلاح على مستوى الشاشة لـ LED و OLED و QLED في جدة.' },
-  'service.3.title': { en: 'Hitachi Fridge Technician', ar: 'فني صيانة ثلاجات بجدة ثلاجة هيتاشي' },
-  'service.3.desc': { en: 'Dedicated Hitachi refrigerator service in Jeddah — compressor, gas charge, and sealing.', ar: 'خدمة ثلاجات هيتاشي dedic في جدة — الضاغط وشحن الغاز والإحكام.' },
+  'service.1.title': { en: 'Samsung Washing Machine Repair', ar: 'صيانة غسالات سامسونج المدينة المنورة بالضمان' },
+  'service.1.desc': { en: 'Authorized Samsung warranty service in Medinah — drum, motor, and control board specialists.', ar: 'خدمة سامسونج المعتمدة بالضمان في المدينة المنورة — متخصصون في الحلة والمحرك ولوحة التحكم.' },
+  'service.2.title': { en: 'Screen & TV Repair', ar: 'صيانة شاشات وتليفزيونات بالمدينة المنورة' },
+  'service.2.desc': { en: 'Panel-level diagnostics and repair for LED, OLED, and QLED screens in Medinah.', ar: 'تشخيص وإصلاح على مستوى الشاشة لـ LED و OLED و QLED في المدينة المنورة.' },
+  'service.3.title': { en: 'Hitachi Fridge Technician', ar: 'فني صيانة ثلاجات بالمدينة المنورة ثلاجة هيتاشي' },
+  'service.3.desc': { en: 'Dedicated Hitachi refrigerator service in Medinah — compressor, gas charge, and sealing.', ar: 'خدمة ثلاجات هيتاشي dedic في المدينة المنورة — الضاغط وشحن الغاز والإحكام.' },
   'service.4.title': { en: 'AC Repair Madinah', ar: 'صيانة مكيفات بالمدينة المنورة' },
   'service.4.desc': { en: 'Split, cassette, and ducted AC maintenance across Madinah — cooling restored to factory spec.', ar: 'صيانة مكيفات سبليت وكاسيت ومركزي بالمدينة المنورة — تبريد يعود لمواصفات المصنع.' },
-  'service.5.title': { en: 'Ariston Washing Machine', ar: 'صيانة غسالات اريستون بالرياض' },
-  'service.5.desc': { en: 'Ariston-certified repair in Riyadh — bearing replacement, pump service, and recalibration.', ar: 'صيانة اريستون المعتمدة في الرياض — استبدال المحامل وخدمة المضخة وإعادة المعايرة.' },
-  'service.6.title': { en: 'Oven Cleaning & Polishing', ar: 'شركة تنظيف افران بالرياض' },
-  'service.6.desc': { en: 'Deep clean, degrease, and polish for ovens in Riyadh — interior and exterior restoration.', ar: 'تنظيف عميق وإزالة شحم وتلميع للأفران في الرياض — ترميم داخلي و خارجي.' },
+  'service.5.title': { en: 'Ariston Washing Machine', ar: 'صيانة غسالات اريستون بالمدينة المنورة' },
+  'service.5.desc': { en: 'Ariston-certified repair in Medinah — bearing replacement, pump service, and recalibration.', ar: 'صيانة اريستون المعتمدة في المدينة المنورة — استبدال المحامل وخدمة المضخة وإعادة المعايرة.' },
+  'service.6.title': { en: 'Oven Cleaning & Polishing', ar: 'شركة تنظيف افران بالمدينة المنورة' },
+  'service.6.desc': { en: 'Deep clean, degrease, and polish for ovens in Medinah — interior and exterior restoration.', ar: 'تنظيف عميق وإزالة شحم وتلميع للأفران في المدينة المنورة — ترميم داخلي و خارجي.' },
 
   'services.cta': { en: 'Request this service', ar: 'اطلب هذه الخدمة' },
 
