@@ -78,17 +78,7 @@ export default function Home() {
 
         {/* Content */}
         <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-10 pt-32 pb-20">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
-            className="flex items-center gap-3 mb-8"
-          >
-            <span className="w-12 h-px bg-gold/60" />
-            <span className={cn('text-xs tracking-ultra uppercase text-gold', lang === 'ar' && 'font-arabic')}>
-              {lang === 'en' ? 'Est. 2026 · Saudi Arabia' : 'تأسس ٢٠٢٤ · المملكة العربية السعودية'}
-            </span>
-          </motion.div>
+
 
           <div className="max-w-4xl">
             <motion.h1
@@ -133,15 +123,7 @@ export default function Home() {
                 {t('hero.cta')}
                 <ArrowIcon className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </button>
-              <Link
-                href="#services"
-                className={cn(
-                  'inline-flex items-center gap-2 px-6 py-4 text-sm text-white/60 hover:text-gold transition-colors duration-300',
-                  lang === 'ar' && 'font-arabic',
-                )}
-              >
-                {t('hero.scroll')}
-              </Link>
+
             </motion.div>
           </div>
         </div>

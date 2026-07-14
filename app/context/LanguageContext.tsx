@@ -85,7 +85,7 @@ const dict: Dict = {
   'footer.company': { en: 'Company', ar: 'الشركة' },
   'footer.contact.title': { en: 'Get in touch', ar: 'تواصل معنا' },
   'footer.phone': { en: '+966 54 217 3874', ar: '+966 54 217 3874' },
-  'footer.address': { en: 'Near صالون أجمل القصات، 7462 الحارث بن محمد، 5404، DMWB5404, Madinah 42394, Saudi Arabia', ar: 'Near صالون أجمل القصات، 7462 الحارث بن محمد، 5404، DMWB5404, Madinah 42394, Saudi Arabia' },
+  'footer.address': { en: 'Busbus Bin Amr, Al Ranouna, Al Madinah Al Munawwarah, Saudi Arabia', ar: 'بسبس بن عمرو، حي الرانوناء، المدينة المنورة، المملكة العربية السعودية' },
 
   // Contact dialog
   'contact.title': { en: 'Request a Service', ar: 'اطلب خدمة' },
